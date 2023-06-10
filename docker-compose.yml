@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    image: backend:first
+    ports: 
+      - "8888:8888"
+  frontend: 
+    image: frontend:first
+    ports: 
+      - "3000:3000"
